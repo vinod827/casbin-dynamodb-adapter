@@ -1,0 +1,39 @@
+{
+  "name": "casbin-dynamodb-adapter",
+  "version": "1.0.0",
+  "description": "Casbin Adapter for Amazon DynamoDB",
+  "main": "lib/adapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinod827/casbin-dynamodb-adapter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "casbin",
+    "adapter",
+    "amazon",
+    "dynamodb",
+    "apache"
+  ],
+  "files": [
+    "lib",
+    "examples"
+  ],
+  "author": "Vinod Kumar Nair (vinod827@yahoo.com)",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/vinod827/casbin-dynamodb-adapter/issues"
+  },
+  "homepage": "https://github.com/vinod827/casbin-dynamodb-adapter#readme",
+  "dependencies": {
+    "casbin": "^5.0.2"
+  }
+}
